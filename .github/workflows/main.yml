@@ -22,7 +22,8 @@ jobs:
         run: go mod verify
 
       - name: Build
-        run: go build -v ./...
+        run: make build
+        # run: go build -v ./...
 
       # - name: Test
       #   run: go test -v ./...
